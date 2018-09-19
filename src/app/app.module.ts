@@ -1,8 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
-
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
@@ -15,6 +13,8 @@ import { ReacthomeComponent } from './React/reacthome/reacthome.component';
 import { CreateReactAppComponent } from './React/create-react-app/create-react-app.component';
 import { AngularcliComponent } from './Angular/angularcli/angularcli.component';
 import { AboutComponent } from './about/about.component';
+import { NodehomeComponent } from './Node/nodehome/nodehome.component';
+import { NodeMenuComponent } from './Node/node-menu/node-menu.component';
 
 
 @NgModule({
@@ -30,7 +30,9 @@ import { AboutComponent } from './about/about.component';
     ReacthomeComponent,
     CreateReactAppComponent,
     AngularcliComponent,
-    AboutComponent
+    AboutComponent,
+    NodehomeComponent,
+    NodeMenuComponent
   ],
   imports: [
     BrowserModule,
