@@ -14,6 +14,7 @@ import { ReactMenuComponent } from './React/react-menu/react-menu.component';
 import { ReacthomeComponent } from './React/reacthome/reacthome.component';
 import { CreateReactAppComponent } from './React/create-react-app/create-react-app.component';
 import { AngularcliComponent } from './Angular/angularcli/angularcli.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { AngularcliComponent } from './Angular/angularcli/angularcli.component';
     ReactMenuComponent,
     ReacthomeComponent,
     CreateReactAppComponent,
-    AngularcliComponent
+    AngularcliComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
