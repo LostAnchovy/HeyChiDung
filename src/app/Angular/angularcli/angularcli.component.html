@@ -4,8 +4,31 @@
     </div>
     <div class="col-md-8">
       <h1 class="text-center">Angular CLI</h1>
-      <p class="font-weight-bold">Angular Defined</p>
-      <p>Angular is a platform that makes it easy to build applications with the web. Angular combines declarative templates, dependency injection, end to end tooling, and integrated best practices to solve development challenges. Angular empowers developers to build applications that live on the web, mobile, or the desktop.</p>
+      <div>
+      <p>Getting Started</p>
+      <span >To install the Angular CLI:</span>
+      <p class="bg-light">npm install -g @angular/cli</p>
+      </div>
+      <p class="font-weight-bold">Angular CLI commands</p>
+      <ul>
+        <li>ng new : builds out an angular project</li>
+        <ul>
+          <li>ng new project-app --routing : builds ou the project with a routing module.ts file</li>
+        </ul>
+        <li>ng serve :builds an application and sets up a web server:</li>
+            <ul>
+              <li>ng serve -- open : opens up window after building out application</li>
+            </ul>
+        <li>ng generate : generates a new component</li>
+          <ul>
+            <li>ng g c "component name" : Short cut to build angular components</li>
+          </ul>
+        <li>ng build</li>
+        <ul>
+          <li>ng build --watch : watches for changes in the app folder and updates the dist folder accordingly</li>
+          <li>ng build -- prod : production build</li>
+        </ul>
+      </ul>
       <button class="btn btn-danger float-right">next</button>
     </div>
   
