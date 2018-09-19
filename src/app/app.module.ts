@@ -8,6 +8,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { AngularhomeComponent } from './Angular/angularhome/angularhome.component';
+import { AngularMenuComponent } from './Angular/angular-menu/angular-menu.component';
+import { ReactMenuComponent } from './React/react-menu/react-menu.component';
+import { ReacthomeComponent } from './React/reacthome/reacthome.component';
+import { CreateReactAppComponent } from './React/create-react-app/create-react-app.component';
+import { AngularcliComponent } from './Angular/angularcli/angularcli.component';
 
 
 @NgModule({
@@ -16,7 +22,13 @@ import { NotfoundComponent } from './notfound/notfound.component';
     NavbarComponent,
     FooterComponent,
     HomepageComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    AngularhomeComponent,
+    AngularMenuComponent,
+    ReactMenuComponent,
+    ReacthomeComponent,
+    CreateReactAppComponent,
+    AngularcliComponent
   ],
   imports: [
     BrowserModule,
