@@ -15,6 +15,7 @@ import { AngularcliComponent } from './Angular/angularcli/angularcli.component';
 import { AboutComponent } from './about/about.component';
 import { NodehomeComponent } from './Node/nodehome/nodehome.component';
 import { NodeMenuComponent } from './Node/node-menu/node-menu.component';
+import { AngularcomponentsComponent } from './Angular/angularcomponents/angularcomponents.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { NodeMenuComponent } from './Node/node-menu/node-menu.component';
     AngularcliComponent,
     AboutComponent,
     NodehomeComponent,
-    NodeMenuComponent
+    NodeMenuComponent,
+    AngularcomponentsComponent
   ],
   imports: [
     BrowserModule,

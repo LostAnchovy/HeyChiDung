@@ -8,12 +8,14 @@ import {CreateReactAppComponent} from './React/create-react-app/create-react-app
 import { AngularcliComponent } from './Angular/angularcli/angularcli.component';
 import { AboutComponent } from './about/about.component';
 import { NodehomeComponent } from './Node/nodehome/nodehome.component';
+import { AngularcomponentsComponent } from './Angular/angularcomponents/angularcomponents.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent, pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
   { path: 'angular', component: AngularhomeComponent },
   { path: 'angular/angularcli', component: AngularcliComponent },
+  { path: 'angular/angular-components', component: AngularcomponentsComponent},
   { path: 'node', component: NodehomeComponent},
   { path: 'react', component: ReacthomeComponent},
   { path: 'react/create-react-app', component: CreateReactAppComponent},
