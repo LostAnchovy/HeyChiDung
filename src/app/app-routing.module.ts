@@ -9,6 +9,10 @@ import { AngularcliComponent } from './Angular/angularcli/angularcli.component';
 import { AboutComponent } from './about/about.component';
 import { NodehomeComponent } from './Node/nodehome/nodehome.component';
 import { AngularcomponentsComponent } from './Angular/angularcomponents/angularcomponents.component';
+import { JavascriptbasicsComponent } from './javascriptbasics/javascriptbasics.component';
+import {ExpressMenuComponent} from './Express/express-menu/express-menu.component'
+import {ExpresshomeComponent} from './Express/expresshome/expresshome.component'
+
 
 const routes: Routes = [
   { path: '', component: HomepageComponent, pathMatch: 'full' },
@@ -16,7 +20,9 @@ const routes: Routes = [
   { path: 'angular', component: AngularhomeComponent },
   { path: 'angular/angularcli', component: AngularcliComponent },
   { path: 'angular/angular-components', component: AngularcomponentsComponent},
+  { path: 'javascript', component: JavascriptbasicsComponent},
   { path: 'node', component: NodehomeComponent},
+  { path: 'express', component: ExpresshomeComponent},
   { path: 'react', component: ReacthomeComponent},
   { path: 'react/create-react-app', component: CreateReactAppComponent},
   { path: '**', component: NotfoundComponent}

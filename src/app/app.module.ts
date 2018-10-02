@@ -16,6 +16,9 @@ import { AboutComponent } from './about/about.component';
 import { NodehomeComponent } from './Node/nodehome/nodehome.component';
 import { NodeMenuComponent } from './Node/node-menu/node-menu.component';
 import { AngularcomponentsComponent } from './Angular/angularcomponents/angularcomponents.component';
+import { JavascriptbasicsComponent } from './javascriptbasics/javascriptbasics.component';
+import { ExpressMenuComponent } from './Express/express-menu/express-menu.component';
+import { ExpresshomeComponent } from './Express//expresshome/expresshome.component';
 
 
 @NgModule({
@@ -34,7 +37,10 @@ import { AngularcomponentsComponent } from './Angular/angularcomponents/angularc
     AboutComponent,
     NodehomeComponent,
     NodeMenuComponent,
-    AngularcomponentsComponent
+    AngularcomponentsComponent,
+    JavascriptbasicsComponent,
+    ExpressMenuComponent,
+    ExpresshomeComponent
   ],
   imports: [
     BrowserModule,
