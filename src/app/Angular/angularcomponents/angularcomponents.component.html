@@ -1,11 +1,9 @@
 <div class="row m-3 p-3" id="top">
 
   <!-- Start of Table of Conents Section -->
-  <div class="col-md-3 bg-light p-5">
-    <div>
-      <h2>Table of Contents</h2>
-    </div>
-    <nav class="nav flex-column navbar-nav mx-auto">
+  <div class="col-lg-3 bg-light p-5 d-none d-sm-block">
+    <nav class="nav flex-column navbar-nav">
+        <h2>Table of Contents</h2>
       <ul>
         <a class="p-1 nav-link font-weight-bold" pageScroll href="#head">Angular Components</a>
         <a class="p-1 nav-link" pageScroll href="#components">Component Parts</a>
@@ -17,7 +15,7 @@
       </ul>
     </nav>
   </div>
-<!-- End of Table of Conents Section -->
+<!-- End of Table of Contents Section -->
 
   <div class="col-md-8 m-4">
     <h1 class="text-center mb-3" id="head">Angular Components</h1>
@@ -40,6 +38,16 @@
         application functions will reside. Functions such as Logout, API request to your server, and connecting to
         services that you may want to build. We will dive into that later.</p>
     </div>
+
+    <div>
+        <h2 id="components">Component Parts</h2>
+        <p>As we covered, components are modularized blocks of code that make up your entire view. However, each
+          component is made up of four files: Css, Html, Spect.ts, and a TS (Typescript) files. Each of the file plays
+          and important role, however, for now lets just focus on the three main ones, Css, Html, and TS.</p>
+        <p>The HTML is the basic mark up language, Css is the presentation layer, and the TS files is where your
+          application functions will reside. Functions such as Logout, API request to your server, and connecting to
+          services that you may want to build. We will dive into that later.</p>
+      </div>
 
     <!-- <img src ="../../../assets/images/angular/components.png" class="img-fluid"> -->
     <h2 id="creating">Creating Components</h2>
