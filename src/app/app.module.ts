@@ -20,6 +20,7 @@ import { JavascriptbasicsComponent } from './javascriptbasics/javascriptbasics.c
 import { ExpressMenuComponent } from './Express/express-menu/express-menu.component';
 import { ExpresshomeComponent } from './Express//expresshome/expresshome.component';
 import {NgxPageScrollModule} from 'ngx-page-scroll';
+import { AngularrouterComponent } from './Angular/angularrouter/angularrouter.component';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import {NgxPageScrollModule} from 'ngx-page-scroll';
     JavascriptbasicsComponent,
     ExpressMenuComponent,
     ExpresshomeComponent,
+    AngularrouterComponent,
     
   ],
   imports: [
