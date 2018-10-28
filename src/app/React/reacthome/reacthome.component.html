@@ -1,4 +1,4 @@
-<div class="row m-3 p-3">
+<!-- <div class="row m-3 p-3">
     <div class="col-md-3 mb-3">
       <app-react-menu></app-react-menu>
     </div>
@@ -11,4 +11,47 @@
       <button class="btn btn-success float-right">next</button>
     </div>
   
-  </div>
+  </div> -->
+
+  <div class="row m-3 p-3" id="top">
+
+      <!-- Start of Table of Conents Section -->
+      <div class="col-md-3 bg-light p-5">
+        <div>
+          <h2>Table of Contents</h2>
+        </div>
+        <nav class="nav flex-column navbar-nav mx-auto">
+          <ul>
+            <a class="p-1 nav-link font-weight-bold" pageScroll href="#head">React Components</a>
+            <a class="p-1 nav-link" pageScroll href="#components">Introduction to React.Js</a>
+            <a class="p-1 nav-link" pageScroll href="#creating">Creat-React-App</a>
+          </ul>
+          <hr class="w-100 clearfix">
+          <ul>
+            <a class="p-1 nav-link" pageScroll href="#top">Top of page</a>
+          </ul>
+        </nav>
+      </div>
+    <!-- End of Table of Conents Section -->
+    
+      <div class="col-md-8 m-4">
+        <h1 class="text-center mb-3" id="head">Welcome to React</h1>
+        <h2>Introduction to React Components</h2>
+        <p>Component are the basic UI building blocks for your application. Let’s take for example this view. How many
+          components can you spot out? Well let’s see. There is top navigation bar, side angular module bar, main body
+          component and the footer. As a whole, they make up the entire view that is displayed. </p>
+        <p class="bold-text">Facebooks Definition of React.Js</p>
+        <blockquote class="mt-2">
+          <p>"Components are the most basic UI building block of an Angular app. An Angular app contains a tree of Angular
+            components.Angular components are a subset of directives, always associated with a template. Unlike other
+            directives, only one component can be instantiated per an element in a template.</p>
+        </blockquote>
+          <h2 id="components">Types of React Components</h2>
+          <p>As we covered, components are modularized blocks of code that make up your entire view. However, each
+            component is made up of four files: Css, Html, Spect.ts, and a TS (Typescript) files. Each of the file plays
+            and important role, however, for now lets just focus on the three main ones, Css, Html, and TS.</p>
+          <p>The HTML is the basic mark up language, Css is the presentation layer, and the TS files is where your
+            application functions will reside. Functions such as Logout, API request to your server, and connecting to
+            services that you may want to build. We will dive into that later.</p>
+    
+    </div>

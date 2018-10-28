@@ -11,22 +11,33 @@
         <a class="nav-link" [routerLink]="['/']">Home</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link" [routerLink]="['angular']"id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Angular
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item"[routerLink]="['angular/angularcli']">Angular CLI</a>
           <a class="dropdown-item" [routerLink]="['angular/angular-components']" >Components</a>
           <a class="dropdown-item" [routerLink]="['angular/angular-router']">Routers</a>
-          <a class="dropdown-item" href="#">Services</a>
+          <a class="dropdown-item" [routerLink]="['angular/angular-services']">Services</a>
+          <a class="dropdown-item" [routerLink]="['/']">Forms</a>
         </div>
       </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            React
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item"[routerLink]="['react']">React.Js</a>
+            <a class="dropdown-item" [routerLink]="['/']">State & Props</a>
+            <a class="dropdown-item" [routerLink]="['/']">React Redux</a>
+            <a class="dropdown-item" [routerLink]="['/']">React Routing</a>
+            <a class="dropdown-item" [routerLink]="['/']">React Forms</a>
+          </div>
+        </li>
+
       <!-- <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-        <a class="nav-link" [routerLink]="['angular']">Angular</a>
-      </li> -->
-      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
         <a class="nav-link" [routerLink]="['react']">React.Js</a>
-      </li>
+      </li> -->
       <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <a class="nav-link" [routerLink]="['node']">Node</a>
       </li>

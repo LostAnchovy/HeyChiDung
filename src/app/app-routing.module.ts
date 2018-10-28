@@ -13,6 +13,7 @@ import { JavascriptbasicsComponent } from './javascriptbasics/javascriptbasics.c
 import {ExpressMenuComponent} from './Express/express-menu/express-menu.component'
 import {ExpresshomeComponent} from './Express/expresshome/expresshome.component'
 import { AngularrouterComponent } from './Angular/angularrouter/angularrouter.component';
+import { AngularServicesComponent } from './Angular/angular-services/angular-services.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'angular/angularcli', component: AngularcliComponent },
   { path: 'angular/angular-components', component: AngularcomponentsComponent},
   { path: 'angular/angular-router', component: AngularrouterComponent },
+  { path: 'angular/angular-services', component: AngularServicesComponent },
   { path: 'javascript', component: JavascriptbasicsComponent},
   { path: 'node', component: NodehomeComponent},
   { path: 'express', component: ExpresshomeComponent},

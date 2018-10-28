@@ -21,6 +21,7 @@ import { ExpressMenuComponent } from './Express/express-menu/express-menu.compon
 import { ExpresshomeComponent } from './Express//expresshome/expresshome.component';
 import {NgxPageScrollModule} from 'ngx-page-scroll';
 import { AngularrouterComponent } from './Angular/angularrouter/angularrouter.component';
+import { AngularServicesComponent } from './Angular/angular-services/angular-services.component';
 
 
 @NgModule({
@@ -44,6 +45,7 @@ import { AngularrouterComponent } from './Angular/angularrouter/angularrouter.co
     ExpressMenuComponent,
     ExpresshomeComponent,
     AngularrouterComponent,
+    AngularServicesComponent,
     
   ],
   imports: [
