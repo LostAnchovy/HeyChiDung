@@ -1,9 +1,26 @@
-<div class="row m-3 p-3">
-  <div class="col-md-3 mb-3">
-    <app-angular-menu></app-angular-menu>
+<div class="row m-3 p-3" id="top">
+
+  <!-- Start of Table of Conents Section -->
+  <div class="col-md-3 bg-light">
+    <div>
+      <h2>Table of Contents</h2>
+    </div>
+    <nav class="nav flex-column navbar-nav mx-auto">
+      <ul>
+        <a class="p-1 nav-link font-weight-bold" pageScroll href="#head">Angular Components</a>
+        <a class="p-1 nav-link" pageScroll href="#components">Component Parts</a>
+        <a class="p-1 nav-link" pageScroll href="#creating">Creating Components</a>
+      </ul>
+      <hr class="bg-dark">
+      <ul>
+        <a class="p-1 nav-link" pageScroll href="#top">Top of page</a>
+      </ul>
+    </nav>
   </div>
+<!-- End of Table of Conents Section -->
+
   <div class="col-md-8">
-    <h1 class="text-center">Angular Components</h1>
+    <h1 class="text-center" id="head">Angular Components</h1>
     <h2>Introduction to Angular Components</h2>
     <p>Component are the basic UI building blocks for your application. Let’s take for example this view. How many
       components can you spot out? Well let’s see. There is top navigation bar, side angular module bar, main body
@@ -14,19 +31,23 @@
         components.Angular components are a subset of directives, always associated with a template. Unlike other
         directives, only one component can be instantiated per an element in a template.</p>
     </blockquote>
-
     <div>
-      <h2>Component Parts</h2>
-    <p>As we covered, components are modularized blocks of code that make up your entire view. However, each component is made up of four files: Css, Html, Spect.ts, and a TS (Typescript) files. Each of the file plays and important role, however, for now lets just focus on the three main ones, Css, Html, and TS.</p>
-    <p>The HTML is the basic mark up language, Css is the presentation layer, and the TS files is where your application functions will reside. Functions such as Logout, API request to your server, and connecting to services that you may want to build. We will dive  into that later.</p>
+      <h2 id="components">Component Parts</h2>
+      <p>As we covered, components are modularized blocks of code that make up your entire view. However, each
+        component is made up of four files: Css, Html, Spect.ts, and a TS (Typescript) files. Each of the file plays
+        and important role, however, for now lets just focus on the three main ones, Css, Html, and TS.</p>
+      <p>The HTML is the basic mark up language, Css is the presentation layer, and the TS files is where your
+        application functions will reside. Functions such as Logout, API request to your server, and connecting to
+        services that you may want to build. We will dive into that later.</p>
     </div>
-    
+
     <!-- <img src ="../../../assets/images/angular/components.png" class="img-fluid"> -->
-    <h2>Creating Components</h2>
+    <h2 id="creating">Creating Components</h2>
     <a routerLink="/angular/angularcli" class="text-danger">ng generate component or ng g c "your_component_name"</a>
 
-    <p>A component must belong to an NgModule in order for it to be available to another component or application. To make it a member of an NgModule, list it in the declarations field of the @NgModule metadata."</p>
-    
+    <p>A component must belong to an NgModule in order for it to be available to another component or application. To
+      make it a member of an NgModule, list it in the declarations field of the @NgModule metadata."</p>
+
     <a href="https://angular.io/api/core/Component">Reference</a>
     <button class="btn btn-danger float-right">next</button>
   </div>

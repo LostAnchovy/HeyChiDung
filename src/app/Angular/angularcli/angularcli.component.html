@@ -1,34 +1,53 @@
-<div class="row m-3 p-3">
-    <div class="col-md-3 mb-3">
+<div class="container-fluid">
+  <div class="row m-3 p-3">
+    <!-- <div class="col-md-3 mb-3">
       <app-angular-menu></app-angular-menu>
-    </div>
+    </div> -->
+    <div class="col-md-3 bg-light">
+        <div>
+          <h2>Table of Contents</h2>
+        </div>
+        <nav class="nav flex-column navbar-nav mx-auto">
+          <ul>
+            <a class="p-1 nav-link font-weight-bold" pageScroll href="#head">Angular CLI</a>
+            <a class="p-1 nav-link" pageScroll href="#CLI">CLI Commands</a>
+            <a class="p-1 nav-link" pageScroll href="#creating">Creating Components</a>
+          </ul>
+          <ul>
+            <a class="p-1 nav-link" pageScroll href="#top">Top of page</a>
+          </ul>
+        </nav>
+      </div>
+    <!-- End of Table of Conents Section -->
     <div class="col-md-8">
-      <h1 class="text-center text-danger">Angular CLI</h1>
-      <p>The Angular Command Line interface or Angular CLI is a tool to initialize , develop, and scaffold and maintain Angular applications. </p>
+      <h1 class="text-center">Angular CLI</h1>
+      <p>The Angular Command Line interface or Angular CLI is a tool to initialize , develop, and scaffold and maintain
+        Angular applications. </p>
       <div>
-      <h2 class="font-weight-bold">Building your first Angular application:</h2>
-      <span >To install the Angular CLI:(Make sure to have node.js installed)</span>
-      <p class="bg-light">npm install -g @angular/cli</p>
+        <h2 class="font-weight-bold">Building your first Angular application:</h2>
+        <span>To install the Angular CLI:(Make sure to have node.js installed)</span>
+        <p class="bg-light">npm install -g @angular/cli</p>
 
-      <p>Here is a link to the <a href ="https://cli.angular.io/">Angular CLI website</a> for more information.Then Angular Command Line interface makes it simple to build out an Angular APP. Let’s try it out!
-      Below are a list of Common Angular CLI commands:</p>
+        <p>Here is a link to the <a href="https://cli.angular.io/">Angular CLI website</a> for more information.Then
+          Angular Command Line interface makes it simple to build out an Angular APP. Let’s try it out!
+          Below are a list of Common Angular CLI commands:</p>
       </div>
       <!-- Insert Video Here -->
       <hr>
-      <h2 class="font-weight-bold text-danger">Angular CLI commands</h2>
+      <h2 class="font-weight-bold" id="CLI">Angular CLI commands</h2>
       <ul>
         <li>ng new : builds out an angular project</li>
         <ul>
           <li>ng new project-app --routing : builds ou the project with a routing module.ts file</li>
         </ul>
         <li>ng serve :builds an application and sets up a web server:</li>
-            <ul>
-              <li>ng serve -- open : opens up window after building out application</li>
-            </ul>
+        <ul>
+          <li>ng serve -- open : opens up window after building out application</li>
+        </ul>
         <li>ng generate : generates a new component</li>
-          <ul>
-            <li>ng g c "component name" : Short cut to build angular components</li>
-          </ul>
+        <ul>
+          <li>ng g c "component name" : Short cut to build angular components</li>
+        </ul>
         <li>ng build</li>
         <ul>
           <li>ng build --watch : watches for changes in the app folder and updates the dist folder accordingly</li>
@@ -37,5 +56,5 @@
       </ul>
       <button class="btn btn-danger float-right">next</button>
     </div>
-  
   </div>
+</div>

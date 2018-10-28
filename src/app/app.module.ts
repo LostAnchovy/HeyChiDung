@@ -19,6 +19,7 @@ import { AngularcomponentsComponent } from './Angular/angularcomponents/angularc
 import { JavascriptbasicsComponent } from './javascriptbasics/javascriptbasics.component';
 import { ExpressMenuComponent } from './Express/express-menu/express-menu.component';
 import { ExpresshomeComponent } from './Express//expresshome/expresshome.component';
+import {NgxPageScrollModule} from 'ngx-page-scroll';
 
 
 @NgModule({
@@ -40,11 +41,13 @@ import { ExpresshomeComponent } from './Express//expresshome/expresshome.compone
     AngularcomponentsComponent,
     JavascriptbasicsComponent,
     ExpressMenuComponent,
-    ExpresshomeComponent
+    ExpresshomeComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]
