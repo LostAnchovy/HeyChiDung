@@ -22,6 +22,7 @@ import { ExpresshomeComponent } from './Express//expresshome/expresshome.compone
 import {NgxPageScrollModule} from 'ngx-page-scroll';
 import { AngularrouterComponent } from './Angular/angularrouter/angularrouter.component';
 import { AngularServicesComponent } from './Angular/angular-services/angular-services.component';
+import { MappersComponent } from './mappers/mappers.component';
 
 
 @NgModule({
@@ -46,6 +47,7 @@ import { AngularServicesComponent } from './Angular/angular-services/angular-ser
     ExpresshomeComponent,
     AngularrouterComponent,
     AngularServicesComponent,
+    MappersComponent,
     
   ],
   imports: [

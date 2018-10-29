@@ -14,6 +14,7 @@ import {ExpressMenuComponent} from './Express/express-menu/express-menu.componen
 import {ExpresshomeComponent} from './Express/expresshome/expresshome.component'
 import { AngularrouterComponent } from './Angular/angularrouter/angularrouter.component';
 import { AngularServicesComponent } from './Angular/angular-services/angular-services.component';
+import { MappersComponent } from './mappers/mappers.component';
 
 
 const routes: Routes = [
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'angular/angular-components', component: AngularcomponentsComponent},
   { path: 'angular/angular-router', component: AngularrouterComponent },
   { path: 'angular/angular-services', component: AngularServicesComponent },
+  { path: 'mapper', component: MappersComponent},
   { path: 'javascript', component: JavascriptbasicsComponent},
   { path: 'node', component: NodehomeComponent},
   { path: 'express', component: ExpresshomeComponent},
